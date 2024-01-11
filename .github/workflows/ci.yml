@@ -19,7 +19,7 @@ jobs:
       - run: docker build -t manvendra1097/multi-worker-10-14 ./worker
 
       - name: Pushing images to Docker Hub
-        run: docker push cygnetops/multi-client-10-14
-      - run: docker push cygnetops/multi-nginx-10-14
-      - run: docker push cygnetops/multi-server-10-14
-      - run: docker push cygnetops/multi-worker-10-14
+        run: docker push manvendra1097/multi-client-10-14
+      - run: docker push manvendra1097/multi-nginx-10-14
+      - run: docker push manvendra1097/multi-server-10-14
+      - run: docker push manvendra1097/multi-worker-10-14
